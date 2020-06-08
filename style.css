@@ -1,0 +1,202 @@
+/* Body {
+  font-size: 18px; 
+  Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+  Weights: 400, 700
+  Pink: hsl(322, 100%, 66%)
+   Very Pale Cyan: hsl(193, 100%, 96%)
+   color
+    hsl(192, 100%, 9%)
+   Grayish Blue: hsl(208, 11%, 55%)
+   Font size: 18px
+   Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+   Weights: 400, 700
+} */
+body {
+  font-size: 18px; 
+  background-color: white ;
+  font-family: sans-serif (https://fonts.google.com/specimen/Open+Sans) ;
+}
+
+h1 {
+  Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+  - Weights: 600
+}
+h2 {
+  Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+  - Weights: 600
+}
+h3 {
+  Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+  - Weights: 600
+}
+h4 {
+  Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+  - Weights: 600
+}
+h5 {
+  Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+  - Weights: 600
+}
+h6 {
+  Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+  - Weights: 600
+}
+
+
+
+/*******************************class********************************/
+img {
+  margin: 0em;
+  border: 0em;
+  padding: 0em;
+  /* position: absolute; */
+  z-index: -1;
+  width: 100%;
+
+}
+
+.heading1 {
+  font-size: 2.5em;
+  Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+  Weights: 600;
+  display: inline-block;
+}
+
+.website {
+ object-fit: cover;
+ padding: 0em;
+ margin: 0em;
+ border: 0em;  
+}
+
+.bt {
+  position: absolute;
+  left: 90%;
+  top: 5%;
+  border-radius: 2em 2em;
+}
+
+.container-fluid {
+  position: absolute;
+  /* left: 5%; */
+  top: 20%;
+}
+
+.bt2 {
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  border-color: hsl(322, 100%, 66%) ;
+  margin-left: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+  border-radius: 2em 2em;
+}
+
+/*  .text {
+  position: absolute;
+  right: 10%;
+  top: 25%;
+  display: block;
+} */ 
+
+/* .text2 {
+  position: absolute;
+  right: 10%;
+  top: 40%;
+  display: block;
+}  */
+
+.logo {
+  object-fit: scale-down;
+  position: absolute;
+  right: 40%;
+  top: -9%;
+}
+
+.row {
+  padding-right: 0em;
+  margin-right: 0em;
+  border-right: 0em;
+}
+
+.table-1 {
+  border-collapse: collapse;
+  border: 1px solid #888888;
+  padding: 3em;
+  margin: 3em;
+  border-radius: 1%;
+  box-shadow: 3px 3px 3px 3px #888888;
+}
+
+.img-1 {
+  object-fit: fill;
+    max-width: 70%;
+    height:auto;
+    margin-right: 0;
+    margin: 0em;
+    padding-right: 0em;
+}
+
+.text-1 {
+  padding-right: 10em;
+}
+
+.table-2 {
+  border-collapse: collapse;
+  border: 1px solid #888888;
+  padding: 3em;
+  margin: 10em 10em 0em 10em;
+  border-radius: 1%;
+  z-index: -1;
+  position: relative;
+  top: 20px;
+
+
+}
+
+/* .text-2 {
+  padding-left: 5em;
+} */
+
+.bottom {
+  background-color: hsl(192, 100%, 9%);
+  color: white;
+  padding-right: 7em;
+  padding-left: 7em;
+  padding-bottom: 2em;
+  padding-top: 5em;
+  
+}
+.tb-1 {
+  padding: 5em;
+  margin: 5em;
+}
+
+th, td {
+  padding: 20px;
+}
+
+.logo2 {
+  object-fit: scale-down;
+  border-color: white;
+}
+
+.email {
+  height: 1em;
+  width: auto;
+}
+
+.huddle {
+  font-size: 3em;
+}
+
+.last {
+  position: absolute;
+  left: 80%;
+  font-size: 12px;
+}
+.attribution {
+  position: absolute;
+  margin: 0em;
+  font-size: 15px;
+}
